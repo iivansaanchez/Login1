@@ -1,0 +1,41 @@
+h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+}
+
+body{
+  background: rgb(248,240,229);
+  background: linear-gradient(90deg, rgba(248,240,229,1) 6%, rgba(218,192,163,1) 40%, rgba(15,44,89,1) 80%); 
+}
+
+button{
+  margin: 30px;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: black;
+    box-shadow: 0 0 25px black;
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px black,
+                0 0 25px black,
+                0 0 50px black,
+                0 0 100px black;
+  }
